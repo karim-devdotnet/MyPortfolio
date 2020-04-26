@@ -1,0 +1,8 @@
+﻿1. dotnet
+2. dotnet ef
+If not found: dotnet tool install --global dotnet-ef --version 3.0.0 
+3. dotnet-ef
+4. dir
+5. cd .\Infrasructure
+6. dotnet-ef migrations add InitialCreate -s ..\Web\Web.csproj
+7. dotnet-ef database update -s ..\Web\Web.csproj
