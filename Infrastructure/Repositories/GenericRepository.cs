@@ -26,7 +26,7 @@ namespace Infrastructure.Repositories
 
         public IEnumerable<T> GetAll()
         {
-            return DbSet.ToList()
+            return DbSet.ToList();
         }
 
         public T GetById(object id)
